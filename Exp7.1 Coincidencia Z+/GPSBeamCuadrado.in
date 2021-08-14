@@ -1,0 +1,51 @@
+# Este macro se puede ejecutar en bash o en visualización, funciona para ambos casos
+
+/gps/particle gamma
+
+/gps/pos/type Plane
+/gps/ang/type focused # Con focused, se genera un reflejo del haz con respecto al foco. 
+# the incident surface is a square of 40 cm
+/gps/pos/shape Square 
+/gps/pos/halfx 5. cm
+/gps/pos/halfy 5. cm
+
+# Dirijido a dirección Z
+/gps/pos/centre 0. 0. -2. m
+/gps/pos/rot1 1 0 0  # Incidencia plano XY
+/gps/pos/rot2 0 1 0
+/gps/ang/focuspoint 0. 0. -1. m # Foco entre origen fuente e infinito
+/gps/ang/rot1 0 1 0 
+/gps/ang/rot2 1 0 0
+
+
+# Dirijido a dirección -Y
+#/gps/pos/centre 0. 2. 0. m
+#/gps/pos/rot1 0 0 1  # Incidencia plano ZX
+#/gps/pos/rot2 1 0 0
+#/gps/ang/focuspoint 0. 1. 0. m
+#/gps/ang/rot1 -1 0 0 
+#/gps/ang/rot2 0 0 1
+
+
+# Dirijido a dirección -Z
+#/gps/pos/centre 0. 0. 2. m
+#/gps/pos/rot1 1 0 0  # Incidencia plano XY
+#/gps/pos/rot2 0 1 0
+#/gps/ang/focuspoint 0. 0. 1. m
+#/gps/ang/rot1 0 -1 0 
+#/gps/ang/rot2 1 0 0
+
+
+# Dirijido a dirección Y
+#/gps/pos/centre 0. -2. 0. m
+#/gps/pos/rot1 0 0 1  # Incidencia plano ZX
+#/gps/pos/rot2 1 0 0
+#/gps/ang/focuspoint 0. -1. 0. m
+#/gps/ang/rot1 1 0 0 
+#/gps/ang/rot2 0 0 1
+
+
+#/gps/ang/type focused 
+/gps/ene/type User
+/gps/hist/type energy
+/control/execute puntosHist6MV.in

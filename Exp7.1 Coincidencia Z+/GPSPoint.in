@@ -1,0 +1,44 @@
+# Este macro se puede ejecutar en bash o en visualización, funciona para ambos casos
+
+/gps/particle gamma
+/gps/pos/type Point
+
+# Dirijido a dirección Z
+/gps/pos/centre 0. 0. -1. m
+
+# Dirijido a dirección -Y
+#/gps/pos/centre 0. 1. 0. m
+
+# Dirijido a dirección -Z
+#/gps/pos/centre 0. 0. 1. m
+
+
+# Dirijido a dirección Y
+#/gps/pos/centre 0. -1. 0. m
+
+
+/gps/ang/type iso
+
+# Dirijido a dirección Z
+/gps/ang/rot1 0 1 0 
+/gps/ang/rot2 1 0 0
+
+# Dirijido a dirección -Y
+#/gps/ang/rot1 -1 0 0 
+#/gps/ang/rot2 0 0 1
+
+# Dirijido a dirección -Z
+#/gps/ang/rot1 0 -1 0 
+#/gps/ang/rot2 1 0 0
+
+# Dirijido a dirección Y
+#/gps/ang/rot1 1 0 0 
+#/gps/ang/rot2 0 0 1
+
+/gps/ang/maxtheta 11.31 deg
+
+/gps/ene/type User
+/gps/hist/type energy
+/control/execute puntosHist6MV.in
+
+

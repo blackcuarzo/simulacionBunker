@@ -1,0 +1,29 @@
+/gps/particle gamma
+/gps/pos/type Point
+
+# Coincidente dirección Z+
+/gps/pos/centre 0. 0. -1. m
+
+# Coincidente dirección -Y
+#/gps/pos/centre 0. 1. 0. m
+
+# Coincidente dirección -Z
+#/gps/pos/centre 0. 0. 1. m
+
+
+# Coincidente dirección Y
+#/gps/pos/centre 0. -1. 0. m
+
+
+
+/gps/ang/type iso
+
+#/gps/ang/rot1 0 1 0 
+#/gps/ang/rot2 1 0 0
+#/gps/ang/maxtheta 2.86 deg
+
+
+#/gps/ang/type focused 
+/gps/ene/type User
+/gps/hist/type energy
+/control/execute puntosHist6MV.in

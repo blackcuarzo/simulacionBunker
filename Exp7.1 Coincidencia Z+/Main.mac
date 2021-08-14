@@ -1,0 +1,16 @@
+/control/verbose 0
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+/cuts/verbose 0
+
+/run/numberOfThreads 8
+/run/initialize
+
+#/control/execute GPSPoint.in                     #Fuente puntual
+#/control/execute GPSBeamCuadrado.in                     #Fuente Cuadrada
+/control/execute GPSFuga.in                     #Fuente fuga
+
+
+# Numero de simulaciones
+/run/beamOn 1000000000

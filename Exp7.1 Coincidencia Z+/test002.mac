@@ -1,0 +1,47 @@
+# test01
+#
+/run/initialize
+#
+#/gps/source/add 1. #Esto al principio del codigo está mal. Al principio a lo sumo se podria usar algo como "/gps/source/intensity 1."
+/gps/particle gamma
+/gps/pos/type Beam
+# it beam spot is of 2d gaussian profile with a 1x2 mm2 central plateau
+# it is in the x-y plane centred at the orgin
+/gps/pos/centre 0. 0. 0. mm
+/gps/pos/halfx 40. mm
+/gps/pos/halfy 40. mm
+/gps/pos/sigma_x 10. mm
+# the spread in y direction is stronger
+/gps/pos/sigma_y 10. mm
+#
+#the beam is travelling along -Z_axis
+/gps/ang/type beam2d # Esta parte es para dar divergencia en dos direcciones
+/gps/ang/sigma_x 2. deg
+/gps/ang/sigma_y 1. deg
+
+#/gps/ene/type User
+#/gps/hist/type energy
+#/control/execute ../macros/puntosHist4MV.in
+
+# Propuesta alternativa 
+
+/gps/ene/type Arb #Point wise distribution
+/gps/hist/type arb
+/control/execute ../macros/puntosHist4MV.in
+
+# Esto podría servir, pero creo que habría que correr las energías 
+/gps/hist/inter Lin # sin esta linea, no funcionan los Arb y arb
+# /gps/hist/inter Log
+#
+
+/analysis/setFileName test002
+/analysis/h1/set 1 100 0 5 MeV
+#/analysis/h2/set 1 100 -5 5 mm none linear 100 -5 5 mm none linear #x-y
+/analysis/h2/set 1 100 -5 5 cm none linear 100 -5 5 cm none linear #x-y
+/analysis/h2/set 2 100 -5 5 mm none linear 100 -5 5 mm none linear #y-z
+/analysis/h2/set 3 100 -5 5 mm none linear 100 -5 5 mm none linear #z-x
+/analysis/h2/set 5 120 0 360 deg none linear 60 60 120 deg none linear
+
+/run/printProgress 100000
+#
+/run/beamOn 100000
