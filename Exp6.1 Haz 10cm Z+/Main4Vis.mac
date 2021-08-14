@@ -1,0 +1,9 @@
+/run/initialize # creo que esto evita crasheados
+
+/control/execute GPSBeamCuadrado.in                    #Fuente puntual
+#/control/execute GPSPoint.in                    #Fuente puntual
+
+
+# Numero de simulaciones
+/run/beamOn 500
+#/control/execute Main4Vis.mac # Usar este comando en la ventana para visualizar

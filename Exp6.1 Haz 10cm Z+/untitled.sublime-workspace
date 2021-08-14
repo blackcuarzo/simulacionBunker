@@ -1,0 +1,605 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lad",
+				"ladoCajaAire"
+			],
+			[
+				"cajaplo",
+				"logicCajaPlomo"
+			],
+			[
+				"caja",
+				"cajaPlomo_mat"
+			],
+			[
+				"Caja",
+				"CajaPlomo"
+			],
+			[
+				"lado",
+				"ladoExterno"
+			],
+			[
+				"G4t",
+				"G4ThreeVector"
+			],
+			[
+				"logic",
+				"logicCajaHueca"
+			],
+			[
+				"Caj",
+				"cajaExterna"
+			],
+			[
+				"en",
+				"env_size"
+			],
+			[
+				"cons",
+				"construccion"
+			],
+			[
+				"Det",
+				"Detector_fisico"
+			],
+			[
+				"st",
+				"stdlib.h\tstandard header (deprecated)"
+			],
+			[
+				"stdl",
+				"cstdlib\tstandard header"
+			],
+			[
+				"of",
+				"oFileEventos"
+			],
+			[
+				"cl",
+				"close"
+			],
+			[
+				"no",
+				"nombre_step"
+			],
+			[
+				"ofs",
+				"ofstream"
+			],
+			[
+				"ev",
+				"event_vector\tstatement"
+			],
+			[
+				"step",
+				"step_vector\tstatement"
+			],
+			[
+				"dat",
+				"datosStepping"
+			],
+			[
+				"ti",
+				"title\tfunction"
+			],
+			[
+				"ener",
+				"energy_vector"
+			],
+			[
+				"plt",
+				"plt\tmodule"
+			],
+			[
+				"pl",
+				"plt2\tmodule"
+			],
+			[
+				"num",
+				"numpy\tmodule"
+			],
+			[
+				"mat",
+				"matplotlib\tmodule"
+			],
+			[
+				"py",
+				"pyplot\tmodule"
+			],
+			[
+				"energ",
+				"energy_vector\tstatement"
+			],
+			[
+				"ste",
+				"steps_reader\tstatement"
+			],
+			[
+				"Di",
+				"DictReader\tclass"
+			],
+			[
+				"game",
+				"games_list"
+			],
+			[
+				"gam",
+				"game\tstatement"
+			],
+			[
+				"r",
+				"reader\tfunction"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"o",
+				"oFile"
+			],
+			[
+				"G4",
+				"G4endl"
+			],
+			[
+				"inc",
+				"include"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Python3_Daniel.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python3_Daniel.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Python3_Daniel.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python3_Daniel.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/User/Python3_Daniel.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"remvoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ana",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"package use",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"python",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"anac",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"goto",
+				"Anaconda: Goto Python object"
+			],
+			[
+				"view",
+				"View Package File"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 235.0,
+		"history":
+		[
+			"sublime.cache_path()"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/daniel/Documents/Trabajo Grado/03_12_20 HVLMnPb_01a"
+	],
+	"file_history":
+	[
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1PrimaryGeneratorAction1.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1Tarea/exampleB1.cc",
+		"/home/daniel/Documents/Tarea final metodos/W6HistSD/src/B1PrimaryGeneratorAction.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/advanced/gammaknife/gammaknife.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1Tarea/src/B1DetectorConstruction.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1Tarea/src/B1EventAction.cc",
+		"/home/daniel/Documents/Tarea final metodos/W6HistSD/src/B1DetectorConstruction.cc",
+		"/home/daniel/Documents/Tarea final metodos/W6HistSD/src/B1RunAction.cc",
+		"/home/daniel/Documents/Tarea final metodos/W6HistSD/src/B1EventAction.cc",
+		"/home/daniel/Documents/Tarea final metodos/W6HistSD/src/B1SteppingAction.cc",
+		"/home/daniel/Documents/Tarea final metodos/W6HistSD/src/B1ActionInitialization.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1Tarea/include/B1ActionInitialization.hh",
+		"/home/daniel/Documents/Tarea final metodos/W6HistSD/exampleB1.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1Tarea/src/B1ActionInitialization.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/advanced/gammaknife/src/GammaKnifeParticles.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/advanced/gammaknife/include/GammaKnifeController.hh",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/advanced/gammaknife/src/GammaKnifeMessenger.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/advanced/brachytherapy/src/BrachyPrimaryGeneratorAction.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/advanced/gammaknife/src/GammaKnifePrimaryGeneratorAction.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/advanced/gammaknife/src/GammaKnifeActionInitialization.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/advanced/gammaknife/src/GammaKnifeController.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/advanced/gammaknife/include/GammaKnifeMessenger.hh",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/advanced/gammaknife/src/GammaKnifeRunAction.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/advanced/gammaknife/src/GammaKnifeDetectorMessenger.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1Tarea/src/B1PrimaryGeneratorAction.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1TareaFinal/src/B1ActionInitialization.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1TareaFinal/exampleB1.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1TareaFinal/include/B1DetectorConstruction.hh",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1TareaFinal/src/B1DetectorConstruction.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1Tarea/.gitignore",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1TareaFinal/.gitignore",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1TareaFinal/include/B1PrimaryGeneratorAction.hh",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1TareaFinal/src/B1PrimaryGeneratorAction1.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1TareaFinal/src/B1PrimaryGeneratorAction.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1PrimaryGeneratorActionIon.cc",
+		"/home/daniel/.cache/.fr-seulUI/W6HistSD/include/B1PrimaryGeneratorAction.hh",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1TareaFinal/include/B1ActionInitialization.hh",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/include/B1DetectorConstruction.hh",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/include/B1SteppingAction.hh",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/include/B1ActionInitialization.hh",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/src/B1SteppingAction.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/src/B1PrimaryGeneratorAction.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/src/B1RunAction.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/src/B1ActionInitialization.cc",
+		"/home/daniel/Documents/Lineas instalacion Geant4",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/exampleB1.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/include/B1RunAction.hh",
+		"/home/daniel/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/daniel/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/daniel/.config/sublime-text-3/Packages/MonokaiC/themes/ME-MonokaiC.tmTheme",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/run1.mac",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/src/B1EventAction.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/build/pruebapython/prueba.py",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/build/Histograma_Steps_y_Eventos.py",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/build/daniel.mac",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/build/pruebapython/nba_games_november2018_visitor_wins.txt",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/daniel.mac",
+		"/home/daniel/.config/sublime-text-3/Packages/Anaconda/Default (Linux).sublime-keymap",
+		"/home/daniel/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/build/pruebapython/Histograma_Steps_y_Eventos.py",
+		"/home/daniel/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/daniel/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/daniel/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/daniel/Documents/SIMULAR/Geant4-10.06/g4_source/examples/basic/B1/src/B1ActionInitialization.cc",
+		"/home/daniel/Documents/SIMULAR/Geant4-10.06/g4_source/examples/basic/B1/include/B1SteppingAction.hh",
+		"/home/daniel/Documents/SIMULAR/Geant4-10.06/g4_source/examples/basic/B1/src/B1SteppingAction.cc",
+		"/home/daniel/Documents/SIMULAR/Geant4-10.06/g4_source/examples/basic/B1/include/B1EventAction.hh",
+		"/home/daniel/Documents/SIMULAR/Geant4-10.06/g4_source/examples/basic/B1/src/B1EventAction.cc",
+		"/home/daniel/Documents/SIMULAR/Geant4-10.06/g4_source/examples/basic/B1/include/B1RunAction.hh",
+		"/home/daniel/Documents/SIMULAR/Geant4-10.06/g4_source/examples/basic/B1/include/B1PrimaryGeneratorAction.hh",
+		"/home/daniel/Documents/SIMULAR/Geant4-10.06/g4_source/examples/basic/B1/src/B1PrimaryGeneratorAction.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B2/B2a/src/B2PrimaryGeneratorAction.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B2/B2a/src/B2EventAction.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B2/B2a/src/B2TrackerHit.cc",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/build/prueba.py",
+		"/home/daniel/.config/sublime-text-3/Packages/Python/Python.sublime-build",
+		"/home/daniel/.config/sublime-text-3/Packages/User/Python3_Daniel.sublime-build",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B2/B2a/include/B2TrackerHit.hh",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B2/B2a/include/B2TrackerSD.hh",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B2/B2a/src/B2TrackerSD.cc",
+		"/home/daniel/Documents/SIMULAR/Geant4-10.06/g4_source/examples/basic/B1/include/B1ActionInitialization.hh",
+		"/home/daniel/Documents/SIMULAR/g4_work/examples/basic/B1/src/B1DetectorConstruction.cc",
+		"/home/daniel/Documents/SIMULAR/Geant4-10.06/g4_source/examples/basic/B1/src/B1RunAction.cc",
+		"/home/daniel/Documents/SIMULAR/Geant4-10.06/g4_source/examples/basic/B1/src/B1DetectorConstruction.cc"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 214.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 190.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"primar",
+				"src/B1PrimaryGeneratorAction.cc"
+			],
+			[
+				"exam",
+				"exampleB1.cc"
+			],
+			[
+				"dete",
+				"src/B1DetectorConstruction.cc"
+			],
+			[
+				"acti",
+				"src/B1ActionInitialization.cc"
+			],
+			[
+				"b1",
+				"include/B1ActionInitialization.hh"
+			],
+			[
+				"exa",
+				"exampleB1.cc"
+			],
+			[
+				"runact",
+				"src/B1RunAction.cc"
+			],
+			[
+				"actionin",
+				"src/B1ActionInitialization.cc"
+			],
+			[
+				"b1eve",
+				"src/B1EventAction.cc"
+			],
+			[
+				"detec",
+				"src/B1DetectorConstruction.cc"
+			],
+			[
+				"genera",
+				"src/B1PrimaryGeneratorAction.cc"
+			],
+			[
+				"action",
+				"src/B1ActionInitialization.cc"
+			],
+			[
+				"actin",
+				"include/B1ActionInitialization.hh"
+			],
+			[
+				"primary",
+				"include/B1PrimaryGeneratorAction.hh"
+			],
+			[
+				"primarygener",
+				"src/B1PrimaryGeneratorAction.cc"
+			],
+			[
+				"b1dete",
+				"include/B1DetectorConstruction.hh"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

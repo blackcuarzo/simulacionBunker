@@ -1,0 +1,52 @@
+# Este macro se puede ejecutar en bash o en visualización, funciona para ambos casos
+
+/gps/particle gamma
+/gps/pos/type Beam
+
+
+# it beam spot is of 2d gaussian profile with a 1x2 mm2 central plateau
+# it is in the x-y plane centred at the orgin
+/gps/pos/centre 0. 0. -15. cm
+/gps/pos/halfx 20 cm
+/gps/pos/halfy 20 cm
+#/gps/pos/sigma_x 10. mm
+#/gps/pos/sigma_y 10. mm
+#
+
+
+#El beam va a viajar en dirección +Z
+/gps/ang/rot1 0 1 0 
+/gps/ang/rot2 1 0 0
+
+
+# Esta parte es para dar divergencia del haz en dos direcciones
+/gps/ang/type beam2d 
+/gps/ang/sigma_x 0. deg
+/gps/ang/sigma_y 0. deg
+
+
+/gps/ene/type User
+/gps/hist/type energy
+/control/execute puntosHist4MV.in
+
+# Propuesta alternativa 
+
+#/gps/ene/type Arb #Point wise distribution
+#/gps/hist/type arb
+#/control/execute puntosHist4MV.in
+
+# Esto podría servir, pero creo que habría que correr las energías 
+#/gps/hist/inter Lin # sin esta linea, no funcionan los Arb y arb
+# /gps/hist/inter Log
+#
+
+
+#Root: Descomentar las siguientes lineas si se quiere trabajar con Root
+#/analysis/setFileName test001
+#/analysis/h1/set 1 100 0 5 MeV
+#/analysis/h2/set 1 100 -5 5 cm none linear 100 -5 5 cm none linear #x-y
+#/analysis/h2/set 2 100 -5 5 mm none linear 100 -5 5 mm none linear #y-z
+#/analysis/h2/set 3 100 -5 5 mm none linear 100 -5 5 mm none linear #z-x
+#/analysis/h2/set 5 120 0 360 deg none linear 60 60 120 deg none linear
+#/run/printProgress 100000
+#
